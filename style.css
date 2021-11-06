@@ -9,7 +9,33 @@ Version:		 1.0.0
 Text Domain:	 baskervillechild
 */
 
+/* Subtitle in Weiß */
+.blog-description {
+    color: white !important;
+}
 
-/*
-    Add your custom styles here
+/* Pre-Header Widget-Area
 */
+.pre-header {
+    background-color: white;
+}
+.pre-header .wp-block-columns {
+    margin-bottom: 0px !important;
+}
+
+@media(max-width: 765px) {
+    #primary-sidebar .wp-block-column {
+        flex-basis: auto !important;
+    }
+}
+
+@media(max-width: 782px) {
+    .pre-header .wp-block-columns {
+        flex-wrap: nowrap !important;
+    }
+}
+@media(max-width: 782px){
+    .pre-header img {
+        width: 300px !important;
+    }
+} 
