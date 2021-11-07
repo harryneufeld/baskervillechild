@@ -18,17 +18,22 @@ Text Domain:	 baskervillechild
 */
 .pre-header {
     background-color: white;
+    padding-top: 25px;
 }
 .pre-header .wp-block-columns {
     margin-bottom: 0px !important;
 }
+.pre-header img {
+    width: 300px !important;
+    max-height: 50px;
+}
 
+/* Overriding WP-Widget-Container */
 @media(max-width: 765px) {
     #primary-sidebar .wp-block-column {
         flex-basis: auto !important;
     }
 }
-
 @media(max-width: 782px) {
     .pre-header .wp-block-columns {
         flex-wrap: nowrap !important;
